@@ -25,10 +25,6 @@ if ($url_path === 'getusers') {
     header("HTTP/1.1 400 Bad Request");
     exit();
 }
-elseif ($url_path === 'login') {
+
     header ('Location: web/login.php');  // перенаправление на нужную страницу
     exit();
-}
-
-header("HTTP/1.1 404 Not Found");
-exit();
