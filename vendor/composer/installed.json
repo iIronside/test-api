@@ -1,14 +1,9 @@
 {
-    "_readme": [
-        "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
-        "This file is @generated automatically"
-    ],
-    "content-hash": "2278836d7b3b54907bf3218cbd8865e4",
     "packages": [
         {
             "name": "symfony/polyfill-ctype",
             "version": "v1.23.0",
+            "version_normalized": "1.23.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -26,6 +21,7 @@
             "suggest": {
                 "ext-ctype": "For best performance"
             },
+            "time": "2021-02-19T12:13:01+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -36,6 +32,7 @@
                     "url": "https://github.com/symfony/polyfill"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Polyfill\\Ctype\\": ""
@@ -83,11 +80,12 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-02-19T12:13:01+00:00"
+            "install-path": "../symfony/polyfill-ctype"
         },
         {
             "name": "vlucas/phpdotenv",
             "version": "v2.6.7",
+            "version_normalized": "2.6.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
@@ -112,12 +110,14 @@
                 "ext-filter": "Required to use the boolean validator.",
                 "ext-pcre": "Required to use most of the library."
             },
+            "time": "2021-01-20T14:39:13+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.6-dev"
                 }
             },
+            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Dotenv\\": "src/"
@@ -159,19 +159,9 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-01-20T14:39:13+00:00"
+            "install-path": "../vlucas/phpdotenv"
         }
     ],
-    "packages-dev": [],
-    "aliases": [],
-    "minimum-stability": "alpha",
-    "stability-flags": [],
-    "prefer-stable": false,
-    "prefer-lowest": false,
-    "platform": {
-        "ext-simplexml": "*",
-        "ext-json": "*"
-    },
-    "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "dev": true,
+    "dev-package-names": []
 }
