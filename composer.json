@@ -1,0 +1,15 @@
+{
+    "name": "slevin/api_test_task",
+    "description": "test task",
+    "minimum-stability": "alpha",
+    "require": {
+        "vlucas/phpdotenv": "^2.4",
+        "ext-simplexml": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "src/"
+        }
+    }
+}
