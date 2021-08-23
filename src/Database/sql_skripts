@@ -1,6 +1,6 @@
 CREATE DATABASE api_test CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-CREATE USER 'api_test_user'@'localhost' identified by 'api_password';
-GRANT ALL on api_example.* to 'api_test_user'@'localhost';
+CREATE USER 'api_test_user' identified by 'api_password';
+GRANT ALL on api_example.* to 'api_test_user';
 
 CREATE TABLE users (
     id INT NOT NULL AUTO_INCREMENT,
